@@ -1,25 +1,25 @@
 # Using conditional operator
 # ? Using if, elif and else statement
 
-# sal = int(input("What is your Salary?"))
-# if sal == 50000:
-#     print("tax=", sal * 0.1)
-# elif sal > 50000:
-#     print("tax=", sal * 0.2)
-# else:
-#     print("You are poor")
+sal = int(input("What is your Salary?"))
+if sal == 50000:
+    print("tax=", sal * 0.1)
+elif sal > 50000:
+    print("tax=", sal * 0.2)
+else:
+    print("You are poor")
 
 # #! Nesting
 
-# age = int(input("How old are you?"))
+age = int(input("How old are you?"))
 
-# if age >= 18:
-#     if age >= 80:
-#         print("You are too old to drive")
-#     else:
-#         print("Can drive")
-# else:
-#     print("Too young to drive")
+if age >= 18:
+    if age >= 80:
+        print("You are too old to drive")
+    else:
+        print("Can drive")
+else:
+    print("Too young to drive")
 
 # * Using conditional operator and logical operator
 
